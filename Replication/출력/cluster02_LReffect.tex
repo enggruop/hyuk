@@ -1,0 +1,22 @@
+\documentclass{article}
+\usepackage{booktabs}
+\usepackage{makecell}
+\usepackage[margin=1in]{geometry}
+\begin{document}
+\begin{table}[!htbp]\centering
+\caption{Cluster 2: Effects of Population Variables}
+\label{tab:effects}
+\begin{tabular}{lccccc}
+\toprule
+Variable & young & mid & old & popgrowth & immigrant \\
+\midrule
+cpi & \makecell[c]{0.873 \\ {\scriptsize[0.495, 1.258]}} & \makecell[c]{-0.309 \\ {\scriptsize[-0.822, 0.193]}} & \makecell[c]{-0.021 \\ {\scriptsize[-0.457, 0.423]}} & \makecell[c]{-0.035 \\ {\scriptsize[-1.409, 1.280]}} & \makecell[c]{-0.543 \\ {\scriptsize[-0.970, -0.112]}} \\
+gdp_p & \makecell[c]{0.015 \\ {\scriptsize[-0.035, 0.064]}} & \makecell[c]{0.054 \\ {\scriptsize[-0.018, 0.127]}} & \makecell[c]{-0.114 \\ {\scriptsize[-0.172, -0.057]}} & \makecell[c]{-0.081 \\ {\scriptsize[-0.288, 0.116]}} & \makecell[c]{0.045 \\ {\scriptsize[-0.008, 0.098]}} \\
+interestrate & \makecell[c]{0.792 \\ {\scriptsize[0.577, 1.014]}} & \makecell[c]{-0.129 \\ {\scriptsize[-0.386, 0.117]}} & \makecell[c]{-0.169 \\ {\scriptsize[-0.422, 0.090]}} & \makecell[c]{-0.058 \\ {\scriptsize[-0.693, 0.544]}} & \makecell[c]{-0.494 \\ {\scriptsize[-0.758, -0.234]}} \\
+inv & \makecell[c]{-0.202 \\ {\scriptsize[-0.404, -0.013]}} & \makecell[c]{0.379 \\ {\scriptsize[0.093, 0.669]}} & \makecell[c]{-0.062 \\ {\scriptsize[-0.282, 0.167]}} & \makecell[c]{-0.042 \\ {\scriptsize[-0.892, 0.748]}} & \makecell[c]{-0.115 \\ {\scriptsize[-0.320, 0.091]}} \\
+savingrate & \makecell[c]{-0.403 \\ {\scriptsize[-0.841, 0.003]}} & \makecell[c]{0.383 \\ {\scriptsize[-0.228, 0.999]}} & \makecell[c]{0.120 \\ {\scriptsize[-0.359, 0.634]}} & \makecell[c]{-0.184 \\ {\scriptsize[-1.898, 1.384]}} & \makecell[c]{-0.100 \\ {\scriptsize[-0.551, 0.356]}} \\
+unem & \makecell[c]{-0.180 \\ {\scriptsize[-0.426, 0.059]}} & \makecell[c]{0.332 \\ {\scriptsize[-0.022, 0.712]}} & \makecell[c]{-0.288 \\ {\scriptsize[-0.581, -0.020]}} & \makecell[c]{-0.533 \\ {\scriptsize[-1.678, 0.553]}} & \makecell[c]{0.136 \\ {\scriptsize[-0.112, 0.389]}} \\
+\bottomrule
+\end{tabular}
+\end{table}
+\end{document}

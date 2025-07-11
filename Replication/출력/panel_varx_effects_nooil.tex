@@ -1,0 +1,21 @@
+\documentclass{article}
+\usepackage{booktabs}
+\usepackage{makecell}
+\usepackage[margin=1in]{geometry}
+\begin{document}
+\begin{table}[!htbp]\centering
+\caption{Effects of Population Variables on Endogenous Variables (transposed)}\label{tab:effects}
+\begin{tabular}{lccccc}
+\toprule
+Variable & young & mid & old & pop_g & immigrant \\
+\midrule
+cpi & \makecell[c]{0.634 \\ {\scriptsize[0.334, 0.928]}} & \makecell[c]{-0.257 \\ {\scriptsize[-0.569, 0.053]}} & \makecell[c]{-0.027 \\ {\scriptsize[-0.309, 0.265]}} & \makecell[c]{0.340 \\ {\scriptsize[-0.877, 1.634]}} & \makecell[c]{-0.349 \\ {\scriptsize[-0.587, -0.115]}} \\
+gdp_p & \makecell[c]{0.033 \\ {\scriptsize[-0.006, 0.071]}} & \makecell[c]{0.083 \\ {\scriptsize[0.039, 0.127]}} & \makecell[c]{-0.135 \\ {\scriptsize[-0.175, -0.097]}} & \makecell[c]{0.033 \\ {\scriptsize[-0.183, 0.268]}} & \makecell[c]{0.019 \\ {\scriptsize[-0.010, 0.049]}} \\
+interestrate & \makecell[c]{0.686 \\ {\scriptsize[0.474, 0.901]}} & \makecell[c]{-0.180 \\ {\scriptsize[-0.396, 0.030]}} & \makecell[c]{-0.137 \\ {\scriptsize[-0.327, 0.059]}} & \makecell[c]{0.011 \\ {\scriptsize[-0.689, 0.708]}} & \makecell[c]{-0.369 \\ {\scriptsize[-0.543, -0.202]}} \\
+inv & \makecell[c]{-0.271 \\ {\scriptsize[-0.468, -0.087]}} & \makecell[c]{0.398 \\ {\scriptsize[0.191, 0.611]}} & \makecell[c]{-0.306 \\ {\scriptsize[-0.490, -0.123]}} & \makecell[c]{0.037 \\ {\scriptsize[-0.846, 0.881]}} & \makecell[c]{0.179 \\ {\scriptsize[0.039, 0.332]}} \\
+savingrate & \makecell[c]{-0.479 \\ {\scriptsize[-0.882, -0.117]}} & \makecell[c]{0.390 \\ {\scriptsize[-0.012, 0.827]}} & \makecell[c]{-0.202 \\ {\scriptsize[-0.586, 0.177]}} & \makecell[c]{-0.615 \\ {\scriptsize[-2.801, 1.172]}} & \makecell[c]{0.291 \\ {\scriptsize[0.014, 0.603]}} \\
+unem & \makecell[c]{0.122 \\ {\scriptsize[-0.110, 0.376]}} & \makecell[c]{0.011 \\ {\scriptsize[-0.268, 0.278]}} & \makecell[c]{-0.013 \\ {\scriptsize[-0.258, 0.234]}} & \makecell[c]{0.535 \\ {\scriptsize[-0.873, 2.192]}} & \makecell[c]{-0.120 \\ {\scriptsize[-0.319, 0.063]}} \\
+\bottomrule
+\end{tabular}
+\end{table}
+\end{document}
